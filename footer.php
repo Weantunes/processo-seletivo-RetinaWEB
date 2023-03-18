@@ -81,11 +81,8 @@
     </div>
 
     <!-- JavaScripts and CDN-->
-    <script src="JS/Script.js"></script>
-    <!-- Biblioteca jquery e ajax do google -->
-    <script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
+    <script src="assets/JS/Script.js"></script>
     <!-- slick carrocel -->
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="JS/iniciadores.js"></script>
+    <script src="assets/JS/iniciadores.js"></script>
 
 <!-- FIM Footer -->
