@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="154" viewBox="0 0 520 154">
+    <g id="Grupo_68" data-name="Grupo 68" transform="translate(-262 -283)">
+        <text id="MARKETING_DIGITAL" data-name="MARKETING DIGITAL" transform="translate(282 342)"
+            fill="#fff" font-size="50" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+            <tspan x="0" y="0">MARKETING DIGITAL</tspan>
+        </text>
+        <text id="MÉDICOS" transform="translate(460 416)" fill="#ff2847" font-size="67"
+            font-family="SegoeUIBlack, Segoe UI">
+            <tspan x="0" y="0">MÉD</tspan>
+            <tspan y="0" fill="#fff">I</tspan>
+            <tspan y="0">COS</tspan>
+        </text>
+        <text id="PARA" transform="translate(281 416)" fill="none" stroke="#f6fffb" stroke-width="1"
+            font-size="67" font-family="SegoeUIBlack, Segoe UI">
+            <tspan x="0" y="0">PARA</tspan>
+        </text>
+    </g>
+    <g id="Retângulo_985" data-name="Retângulo 985" fill="none" stroke="#ad2254" stroke-width="2">
+        <rect width="510" height="154" rx="4" stroke="none" />
+        <rect x="1" y="1" width="508" height="152" rx="3" fill="none" />
+    </g>
+</svg>

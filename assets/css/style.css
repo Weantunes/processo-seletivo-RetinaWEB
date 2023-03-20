@@ -35,16 +35,16 @@ img{max-width: 100%;}
     --hover-itensMenu: blue;
 
     /* Cor do rodapé  */
-    --footer-color: #222222;
+    --footer-color: #1D156D;
 
     /* Cor das fontes do rodapé */
     --footer-font-color: #fff;
 
     /* Cor da seção copyright */
-    --copyright-color: #000;
+    --copyright-color: #1D156D;
 
     /* Cor do fundo menu mobile */
-    --menuMobile-color: #696969;
+    --menuMobile-color: #1D156D;
 }
 
 /*Fonts*/
@@ -59,9 +59,14 @@ img{max-width: 100%;}
 .font9{font: normal 700 1.7rem 'arial'; margin: 0 0 25px 0;}
 .font10{font: normal 500 0.8rem 'arial';margin: 0 0 25px 0;line-height: 1.2rem;}
 .font11{font: normal 700 2rem 'arial';margin: 30px 0;line-height: 1.2rem;}
+.font12{font: normal 700 23px 'arial';line-height: 2rem;color: #1D156D;}
+.font13{font: normal 700 23px 'arial';line-height: 2rem;color: red;}
+.font14{font: normal 500 15px 'arial';line-height: 1.3rem;}
+
+.sombra1{box-shadow: 14px 30px 55px rgba(0, 0, 0, 0.514);}
 
 /*Configuração elementos*/
-.button {display: inline;color: white;background-color: rgb(0, 0, 0);border-radius: 10px;border: none;padding: 15px 30px;font: normal bold 1em 'arial';transition: background-color .5s;}
+.button {display: inline;color: white;background-color: #1D156D;border-radius: 30px;border: none;padding: 15px 30px;font: normal bold 1em 'arial';transition: background-color .5s;}
 .button:hover {background-color: var(--botão-hover);}
 .link{font: var(--links-font);color: var(--links-font);}
 
@@ -84,7 +89,7 @@ nav a:hover {color: var(--hover-itensMenu);}
 
 /*Banner*/
 #Banner-Main .button {width: 150px;height: 50px;display: block;margin: 32px 17px;}
-.bunners{position: relative;z-index: 0;width: 100%;height: 100vh;display: flex;color: white;background-image: url("https://img.freepik.com/vetores-gratis/vetor-de-fundo-de-tecnologia-digital-com-borda-de-hexagono-em-tom-roxo-escuro_53876-126069.jpg");background-repeat: no-repeat;background-size: cover;background-position: right;}
+.bunners{position: relative;z-index: 0;width: 100%;height: 100vh;display: flex;background-repeat: no-repeat;background-size: cover;background-position: right;}
 #Banner-titulo {position: relative;padding: 0px 25px ;margin: 0 auto 0 auto;}
 #Banner-titulo img{width: 200px;}
 #tituloBunner{display: block;text-align: initial;margin: 0 0 30px 0;}
@@ -94,25 +99,17 @@ nav a:hover {color: var(--hover-itensMenu);}
 #description-button{display: flex;justify-content: space-between;flex-wrap: wrap;gap: 30px;}
 #description-button p{width: 300px;text-align: initial;margin: 20px 30px 0px;font-size: .9rem;}
 .bunner-main{padding: 0;z-index: 1;display: block;width: 100%;height: 100vh;background-repeat: no-repeat;background-size: cover;}
-.txtBunner2{position: relative;margin: auto;width: 1366px;height: 70vh;display: flex;align-items: center;flex-wrap: wrap;justify-content: center;}
-.txtBunner{padding: 25px 50px;max-width: 500px;}
-.txtBunner span{}
-.txtBunner > img{border-radius: 150px;}
-#bunners-Conteudo{margin: 50px 0;background-position: top;background-image: url(../img/jpg/Editadas/Segurança\ particular.webp);}
+.txtBunner2{position: relative;margin: auto;width: 1366px;height: 70vh;display: flex;flex-wrap: wrap;flex-direction: row;align-items: center;justify-content: space-between;}
+.txtBunner{padding: 25px 50px;max-width: 500px;margin-left: 100px;position: relative;}
+
 
 
 /* Página Home */
-#Banner-Main {width: 100%;height: 90vh;display: block;position: relative;padding: 70px 0 0 0px;color: #ffffff; background-size: cover;background-repeat: no-repeat;background-image: url(../img/jpg/Editadas/Câmera\ de\ Segurança.webp);}
-#Bunner-MainMain{background-image: url(../img/jpg/Editadas/Câmera\ de\ Segurança.webp);}
-
-.sublinhado
-
-
+#Banner-Main {width: 100%;height: 90vh;display: block;position: relative;padding: 70px 0 0 0px;color: #ffffff; background-size: cover;background-repeat: no-repeat;}
 
 /* Página Serviços */
 
 /*Bunner*/
-main > section#Bunner-MainServiços {background-image: url(../img/jpg/Editadas/Prestação\ de\ Serviços.webp);}
 
 #Serviços ul {justify-content: space-evenly;display: flex;flex-wrap: wrap;}
 #Serviços ul > li{margin: 25px;}
@@ -131,15 +128,16 @@ main > section#Bunner-MainServiços {background-image: url(../img/jpg/Editadas/P
 /* Página Sobre */
 
 /*Bunner*/
-main > section#Bunner-MainSobre {background-position: top;background-image: url(../img/jpg/Editadas/Equipe\ -\ Inside\ segurançwebp);}
+main > section#Vantagens,main > section#Clientes {background-position: top;background-image: url(../img/banner-sessao.webp);}
 
 #Serviços-container{margin: 75px auto;}   
-#Texto-Foto{display: flex;justify-content: space-around;flex-wrap: wrap;}
-#Texto-Foto div{width: 470px;text-align: justify;}
-#SobreNos img {margin: 25px 0 ;box-shadow: 14px 30px 55px rgba(0, 0, 0, 0.514);}
+#Texto-Foto{display: flex;justify-content: space-between;flex-wrap: wrap; align-items: center;flex-direction: column;row-gap: 105px;}
+#Texto-Foto div{width: 470px;text-align: justify;flex-wrap: wrap;}
+#ebook #Texto-Foto > div{display: flex;row-gap: 40px;}
+#SobreNos img {margin: 25px 0; max-width: 100%;}
 #SobreNos .button{width: max-content;display: inline-block;margin: 40px auto 20px auto;}
 #SobreNos .font4{text-align: start;}
-
+#Vantagens{text-align: center;}
 
 /* Página expisição */
 #album-fotos{display: grid;gap: 25px 25px;grid-template-columns: auto auto auto;}
@@ -149,8 +147,8 @@ main > section#Bunner-MainSobre {background-position: top;background-image: url(
 /* Página Contato */
 
 /*Bunner*/
-main > section#Bunner-MainContato {background-position: center;background-image: url(../img/jpg/Editadas/Suporte\ -\ Inside\ segurançwebp);
-}
+main > section#Bunner-MainMain {background-position: center;background-image: url(../img/banner-main.webp);color:white}
+
 
 .item-Contato{width: 300px;height: 350px;box-shadow: var(--sombras);padding: 50px 0 ;margin: 25px;}
 .item-Contato a, #formasContatos a{color: black;}
@@ -163,7 +161,7 @@ main > section#Bunner-MainContato {background-position: center;background-image:
 
 
 /* Footer */
-footer {position: relative;width: 100%;background-color: var(--footer-color);color: var(--footer-font-color);}
+footer {position: relative;width: 100%;background-color: var(--footer-color);color: var(--footer-font-color);margin-top: -75px;}
 #grid-footer{padding: 70px  30px 90px;}
 #listas-footer{width: 100%;display: flex;justify-content: space-evenly;position: relative;}
 #Logo-footer{display: block;justify-content: space-around;margin: 20px 0 0 0;}
@@ -172,6 +170,74 @@ footer {position: relative;width: 100%;background-color: var(--footer-color);col
 #listas-footer li{line-height: 2.2rem;}
 .titulo_footer {padding: 15px;}
 footer > section {width: 100%;height: auto;background-color: var(--copyright-color);position: relative;bottom: 0;padding: 25px;text-align: center;}
+
+.ItemVantengens{max-width: 560px;border-radius: 15px;background-color: #fff;padding: 40px; } 
+.ItemVantengens span{display: flex;align-items: center;column-gap: 30px;margin-bottom: 20px;} 
+.ItemVantengens .button{margin: 25px auto;} 
+
+
+
+.carousel {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-list {
+    width: 300%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 0;
+    transition: left 0.5s ease;
+  }
+  
+  .carousel-item {
+    width: 33.3333%;
+    height: 400px;
+    float: left;
+    list-style: none;
+  }
+
+
+  .carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  
+  .carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel-control.prev {
+    left: 10px;
+  }
+  
+  .carousel-control.next {
+    right: 10px;
+  }
+  
+  
+
+
 
 
 /* Responsividade para celular */

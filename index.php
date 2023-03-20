@@ -36,62 +36,88 @@
             <div class="bunners">
                 <div class="txtBunner2">
                     <div class="txtBunner">
-                        <span>
-                            <p>MARKETING DIGITAL <br> PARA <img src="assets/img/medico.webp" alt=""> </p>
-                        </span>
-                        <p class="font9">Conheça como o Marketing Digital pode ajudar os <span
-                                class="sublinhado">médicos</span></p>
+
+                        <img src="assets/svg/title.svg" alt="">
+
+                        <p class="font9">Conheça como o Marketing Digital pode ajudar os <span class="sublinhado">médicos</span></p>
                         <p class="font8">Decubra as melhores estratégias para contruir uma presença sólida uma presença
                             solida na internet e atinja milhares de pacientes que procuram pela sua especialidade nesse
                             exato momento</p>
                         <a href="contato.php"><button class="button">Baixe gratuitamente o E-Book</button></a>
                     </div>
                     <div class="txtBunner">
-                        <img src="https://clinicaimed.com.br/wp-content/uploads/2021/07/Qual-medico-e-indicado-para-o-tratamento-da-covid-imed.jpg"
-                            alt="Imagem">
                     </div>
                 </div>
             </div>
         </section>
         <!--Fim Bunner Principal-->
 
-        <!--Vantagens-->
-        <section id="SobreNos">
+        <!-- Ebook -->
+        <section id="ebook">
             <div id="Serviços-container" class="container">
-
-                <p class="font2">Sobre nós</p>
 
                 <div id="Texto-Foto">
 
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_652125-MLB28077413851_092018-O.webp" alt="">
 
                     <div>
                         <!--Título do texto-->
-                        <h2 class="font11">Conheça a Retina</h2>
-                        <h3 class="font4">Somos uma agência web criativa que <br> valoriza o seu projeto!</h3>
+                        <h2 class="font12">Não perca mais tempo! Aumente seu alcance e consiga reconhecimento em seu setor de atuação.</h2>
+                        <h3 class="font13">Como o Marketing Digital pode ajudar os Profissionais de Saúde</h3>
 
-                        <!--Texto-->
-                        <article>
+                        <a href="" class="button">Baixe gratuitamente o E-Book</a>
+                    </div>
 
-                            <p class="font10">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ad blanditiis, quis illum
-                                esse repellendus cum facere possimus officiis quos id porro eum vero. Perferendis
-                                quisquam deserunt provident et fugit.
-                            </p>
-                            <p class="font10">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ad blanditiis, quis illum
-                                esse repellendus cum facere possimus officiis quos id porro eum vero. Perferendis
-                                quisquam deserunt provident et fugit. Quo, aliquam. Dolor ipsam placeat possimus labore
-                                doloribus est culpa error.
-                            </p>
-                            <p class="font10">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ad blanditiis, quis illum
-                                esse repellendus cum facere possimus officiis quos id porro eum vero.
-                            </p>
+                    <img src="assets/img/ebook.webp" alt="">
 
-                            <a href="" class="button">Fale Conosco</a>
+                </div>
+            </div>
+        </section>
+        <!--Fim Ebook-->
 
-                        </article>
+        <!-- Vantagens -->
+        <section id="Vantagens" class="bunners">
+            <div id="Serviços-container" class="container">
+
+                <div id="Texto-Foto">
+
+                    <!--Título do texto-->
+                    <h2 class="font12">Vantagens do Marketing Digital para Médicos</h2>
+
+                    <div>
+                        <div class="carousel">
+                            <ul class="carousel-list">
+                                <li class="carousel-item active">
+                                    <article class="ItemVantengens">
+                                        <span>
+                                            <img src="assets/svg/divulgacao-etica.svg" alt="">
+
+                                            <h3 class="font12">Divulgação Ética</h3>
+                                        </span>
+
+                                        <p class="font14">Mesmo que muitas redes sociais façam uso de imagens e a Resolução 1.0974/11 no artigo 3º proíba a exposição de pacientes para divulgação de técnicas ou de sua marca, isso não faz com que essa plataforma seja ineficiente para a divulgação de seus serviços.
+                                        </p>
+                                        <br>
+                                        <p class="font14">Posts informativos e institucionais que coloquem o médico como autoridade no assunto dentro do meio online, fundamentando-se num bom planejamento de marketing afim de angariar novos seguidores nas redes e aumentar o engajamento e posicionamento da marca com estratégias de Marketing Digital.</p>
+                                        <a href="" class="button">Fale Conosco</a>
+
+                                    </article>
+                                </li>
+                                <li class="carousel-item">
+                                    <article class="ItemVantengens">
+
+                                    </article>
+                                </li>
+                                <li class="carousel-item">
+                                    <article class="ItemVantengens">
+
+                                    </article>
+                                </li>
+                            </ul>
+                            <button class="carousel-control prev">Anterior</button>
+                            <button class="carousel-control next">Próximo</button>
+                        </div>
+
+
                     </div>
 
                 </div>
@@ -99,15 +125,13 @@
         </section>
         <!--Fim Vantagens-->
 
-        <!-- Prova Social-->
+        <!--Conheça a Retina-->
         <section id="SobreNos">
             <div id="Serviços-container" class="container">
 
-                <p class="font2">Sobre nós</p>
-
                 <div id="Texto-Foto">
 
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_652125-MLB28077413851_092018-O.webp" alt="">
+                    <img src="assets/img/sobre-retina.webp" alt="">
 
                     <div>
                         <!--Título do texto-->
@@ -141,17 +165,15 @@
                 </div>
             </div>
         </section>
-        <!--Fim Prova Social-->
+        <!--Fim Conheça a Retina-->
 
-        <!--Sobre nós-->
-        <section id="SobreNos">
+        <!-- Clientes -->
+        <section id="Clientes">
             <div id="Serviços-container" class="container">
-
-                <p class="font2">Sobre nós</p>
 
                 <div id="Texto-Foto">
 
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_652125-MLB28077413851_092018-O.webp" alt="">
+                    <img src="assets/img/sobre-retina.webp" alt="">
 
                     <div>
                         <!--Título do texto-->
@@ -185,7 +207,7 @@
                 </div>
             </div>
         </section>
-        <!--Fim Sobre nós-->
+        <!--Fim Clientes-->
 
 
     </main>
