@@ -131,7 +131,7 @@ nav a:hover {color: var(--hover-itensMenu);}
 main > section#Vantagens,main > section#Clientes {background-position: top;background-image: url(../img/banner-sessao.webp);}
 
 #Serviços-container{margin: 75px auto;}   
-#Texto-Foto{display: flex;justify-content: space-between;flex-wrap: wrap; align-items: center;flex-direction: column;row-gap: 105px;}
+#Texto-Foto{display: flex;justify-content: space-between;flex-wrap: wrap; align-items: center;}
 #Texto-Foto div{width: 470px;text-align: justify;flex-wrap: wrap;}
 #ebook #Texto-Foto > div{display: flex;row-gap: 40px;}
 #SobreNos img {margin: 25px 0; max-width: 100%;}
@@ -143,8 +143,7 @@ main > section#Vantagens,main > section#Clientes {background-position: top;backg
 #album-fotos{display: grid;gap: 25px 25px;grid-template-columns: auto auto auto;}
 #album-fotos li{display: block;width: 400px;height: 350px;background-color: blue;}
 
-
-/* Página Contato */
+#Vantagens #Texto-Foto{flex-direction: column;row-gap: 105px;}
 
 /*Bunner*/
 main > section#Bunner-MainMain {background-position: center;background-image: url(../img/banner-main.webp);color:white}
@@ -173,8 +172,7 @@ footer > section {width: 100%;height: auto;background-color: var(--copyright-col
 
 .ItemVantengens{max-width: 560px;border-radius: 15px;background-color: #fff;padding: 40px; } 
 .ItemVantengens span{display: flex;align-items: center;column-gap: 30px;margin-bottom: 20px;} 
-.ItemVantengens .button{margin: 25px auto;} 
-
+.ItemVantengens .button{margin: 25px auto;display: inline-block;} 
 
 
 .carousel {
@@ -192,6 +190,8 @@ footer > section {width: 100%;height: auto;background-color: var(--copyright-col
     position: relative;
     left: 0;
     transition: left 0.5s ease;
+    display: flex;
+    gap: 55px;
   }
   
   .carousel-item {

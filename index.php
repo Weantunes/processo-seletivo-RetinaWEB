@@ -103,12 +103,34 @@
                                     </article>
                                 </li>
                                 <li class="carousel-item">
-                                    <article class="ItemVantengens">
+                                <article class="ItemVantengens">
+                                        <span>
+                                            <img src="assets/svg/divulgacao-etica.svg" alt="">
+
+                                            <h3 class="font12">Divulgação Ética</h3>
+                                        </span>
+
+                                        <p class="font14">Mesmo que muitas redes sociais façam uso de imagens e a Resolução 1.0974/11 no artigo 3º proíba a exposição de pacientes para divulgação de técnicas ou de sua marca, isso não faz com que essa plataforma seja ineficiente para a divulgação de seus serviços.
+                                        </p>
+                                        <br>
+                                        <p class="font14">Posts informativos e institucionais que coloquem o médico como autoridade no assunto dentro do meio online, fundamentando-se num bom planejamento de marketing afim de angariar novos seguidores nas redes e aumentar o engajamento e posicionamento da marca com estratégias de Marketing Digital.</p>
+                                        <a href="" class="button">Fale Conosco</a>
 
                                     </article>
                                 </li>
                                 <li class="carousel-item">
-                                    <article class="ItemVantengens">
+                                <article class="ItemVantengens">
+                                        <span>
+                                            <img src="assets/svg/divulgacao-etica.svg" alt="">
+
+                                            <h3 class="font12">Divulgação Ética</h3>
+                                        </span>
+
+                                        <p class="font14">Mesmo que muitas redes sociais façam uso de imagens e a Resolução 1.0974/11 no artigo 3º proíba a exposição de pacientes para divulgação de técnicas ou de sua marca, isso não faz com que essa plataforma seja ineficiente para a divulgação de seus serviços.
+                                        </p>
+                                        <br>
+                                        <p class="font14">Posts informativos e institucionais que coloquem o médico como autoridade no assunto dentro do meio online, fundamentando-se num bom planejamento de marketing afim de angariar novos seguidores nas redes e aumentar o engajamento e posicionamento da marca com estratégias de Marketing Digital.</p>
+                                        <a href="" class="button">Fale Conosco</a>
 
                                     </article>
                                 </li>
