@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+
+/* Importação de Fontes */
+@import url('');
+
+
+/* Comfiguração Gerias */
+* {margin: 0;padding: 0;box-sizing: border-box;list-style: none;text-decoration: none;font: normal 1em 'arial';}
+html {scroll-behavior: smooth;}
+a {color: white;}
+img{max-width: 100%;}
+.container {max-width: 1349px;margin: auto;}
+
+
+/* variáveis do site */
+:root{
+
+    /* Sombras */
+    --sombras: 2px 4px 20px 0px rgb(0 0 0 / 51%);
+
+    /* Botão Hover */
+    --botão-hover: rgba(68, 0, 255, 0.911);
+    
+    /* Fonte dos links */
+    --links-font: normal 500 1.1rem 'Arial';
+    
+    /* Cor dos links */
+    --links-font-color: #000;
+
+    /* Cor do cabeçalho */
+    --header-color: #222222;
+
+    /* Cor do hover nos itens do menu */
+    --hover-itensMenu: blue;
+
+    /* Cor do rodapé  */
+    --footer-color: #1D156D;
+
+    /* Cor das fontes do rodapé */
+    --footer-font-color: #fff;
+
+    /* Cor da seção copyright */
+    --copyright-color: #1D156D;
+
+    /* Cor do fundo menu mobile */
+    --menuMobile-color: #1D156D;
+}
+
+/*Fonts*/
+.font1 {font: normal bold 2em 'arial';margin: 8px 0 0 25px;}
+.font2 {font: normal 700 2rem 'Arial';margin: 40px 0px;border-bottom: solid;padding-bottom: 25px;word-wrap: break-word;}
+.font3{font: normal 600 1.5rem 'Arial';margin: 25px 0;}
+.font4 {font: normal 500 2rem 'verdana';margin: 25px 0;}
+.font5 {font: normal 700 1.1rem 'arial';line-height: 1.7rem;margin: 25px 0;}
+.font6{font: normal 100 0.9rem 'arial';line-height: 1.2rem;}
+.font7{font: normal 700 1.2rem 'arial';}
+.font8{font: normal 500 0.8rem 'arial';margin: 0 0 25px 0;line-height: 1.5rem;}
+.font9{font: normal 700 1.7rem 'arial'; margin: 0 0 25px 0;}
+.font10{font: normal 500 0.8rem 'arial';margin: 0 0 25px 0;line-height: 1.2rem;}
+.font11{font: normal 700 2rem 'arial';margin: 30px 0;line-height: 1.2rem;}
+.font12{font: normal 700 23px 'arial';line-height: 2rem;color: #1D156D;}
+.font13{font: normal 700 23px 'arial';line-height: 2rem;color: red;}
+.font14{font: normal 500 15px 'arial';line-height: 1.3rem;}
+
+.sombra1{box-shadow: 14px 30px 55px rgba(0, 0, 0, 0.514);}
+
+/*Configuração elementos*/
+.button {display: inline;color: white;background-color: #1D156D;border-radius: 30px;border: none;padding: 15px 30px;font: normal bold 1em 'arial';transition: background-color .5s;}
+.button:hover {background-color: var(--botão-hover);}
+.link{font: var(--links-font);color: var(--links-font);}
+
+/* Icon do whatsapp */
+#whatsapp-fixed svg {z-index: 1;position: fixed;right: 0;bottom: 0;margin: 25px;padding: 5px;border-radius: 40%;background-color: #00e676;}
+
+
+/*Body*/
+main {width: 100%;position: relative;}
+main section {padding: 0 95px;}
+
+
+/* Cabeçalho*/
+#Header {width: 100%;height: auto;position: absolute;font: normal bold 1.15em 'arial';background-color: transparent;z-index: 1;}
+#Header-container {padding: 30px 0 30px 25px;display: flex; justify-content: space-between;align-items: center;}
+#Menu-header {display: flex;flex-wrap: wrap;}
+nav a button {padding: 5px;}
+nav a {margin: 0 20px;}
+nav a:hover {color: var(--hover-itensMenu);}
+
+/*Banner*/
+#Banner-Main .button {width: 150px;height: 50px;display: block;margin: 32px 17px;}
+.banners{position: relative;z-index: 0;width: 100%;height: 100vh;display: flex;background-repeat: no-repeat;background-size: cover;background-position: right;}
+#Banner-titulo {position: relative;padding: 0px 25px ;margin: 0 auto 0 auto;}
+#Banner-titulo img{width: 200px;}
+#titulobanner{display: block;text-align: initial;margin: 0 0 30px 0;}
+#titulobanner p span{font-weight: 800;}
+#Banner-titulo p.font1 {font: normal 500 2.7rem 'Arial';}
+#Banner-titulo h1.subtitulo {margin: 0 0 0 209px;}
+#description-button{display: flex;justify-content: space-between;flex-wrap: wrap;gap: 30px;}
+#description-button p{width: 300px;text-align: initial;margin: 20px 30px 0px;font-size: .9rem;}
+.banner-main{padding: 0;z-index: 1;display: block;width: 100%;height: 100vh;background-repeat: no-repeat;background-size: cover;}
+.txtbanner2{position: relative;margin: auto;width: 1366px;height: 70vh;display: flex;flex-wrap: wrap;flex-direction: row;align-items: center;justify-content: space-between;}
+.txtbanner{padding: 25px 50px;max-width: 500px;margin-left: 100px;position: relative;}
+
+
+
+/* Página Home */
+#Banner-Main {width: 100%;height: 90vh;display: block;position: relative;padding: 70px 0 0 0px;color: #ffffff; background-size: cover;background-repeat: no-repeat;}
+
+/* Página Serviços */
+
+/*banner*/
+
+#Serviços ul {justify-content: space-evenly;display: flex;flex-wrap: wrap;}
+#Serviços ul > li{margin: 25px;}
+.ServiçosBox {position: relative;width: 230px;height: 280px;margin: 25px 0;}
+.ServiçosBox p {margin: 25px 0;}
+.ServiçosBox button {position: absolute;bottom: 0;}
+/*Lista de Serviço*/
+#itens-serviços ul{display: flex;justify-content: initial;overflow: auto;gap: 15px;}
+.item{min-width: 300px;max-width: 450px;height: 455px;margin: 5px;box-shadow: var(--sombras);}
+.item img{height: 220px;}
+.item article{padding: 0px 35px 15px 35px;}
+.item article a{display: block;   color: #000;}
+.scroll::-webkit-scrollbar{display: none;}
+
+
+/* Página Sobre */
+
+/*banner*/
+main > section#Vantagens,main > section#Clientes {background-position: top;background-image: url(../img/banner-sessao.webp); padding: 130px 0;}
+
+#Texto-Foto{display: flex;justify-content: space-between;flex-wrap: wrap; align-items: center;}
+#Texto-Foto div{width: 470px;text-align: justify;flex-wrap: wrap;}
+#ebook #Texto-Foto > div{display: flex;row-gap: 40px;}
+#SobreNos img {margin: 25px 0; max-width: 100%;}
+#SobreNos .button{width: max-content;display: inline-block;margin: 40px auto 20px auto;}
+#SobreNos .font4{text-align: start;}
+#Vantagens{text-align: center;}
+
+/* Página expisição */
+#album-fotos{display: grid;gap: 25px 25px;grid-template-columns: auto auto auto;}
+#album-fotos li{display: block;width: 400px;height: 350px;background-color: blue;}
+
+#Vantagens #Texto-Foto{flex-direction: column;row-gap: 105px;}
+
+/*banner*/
+main > section#banner-MainMain {background-position: center;background-image: url(../img/banner-main.webp);color:white}
+
+
+.item-Contato{width: 300px;height: 350px;box-shadow: var(--sombras);padding: 50px 0 ;margin: 25px;}
+.item-Contato a, #formasContatos a{color: black;}
+.altura-linha p{line-height: 2.5rem ;}#map iframe{box-shadow: var(--sombras); max-width: 100%;}
+#mapa-itens{display: flex;margin: 150px 0 ;justify-content: space-around;flex-wrap: wrap-reverse;}
+#formasContatos li{display: block;color: black;margin: 50px;align-items: center;}
+#formasContatos .button{color: white;}
+#contatoItens{display: flex;justify-content: space-evenly;text-align: center;flex-wrap: wrap;}
+#mapa-itens .font2{margin: 0;}
+
+
+/* Footer */
+footer {position: relative;width: 100%;background-color: var(--footer-color);color: var(--footer-font-color);}
+#grid-footer{padding: 70px  30px 90px;}
+#listas-footer{width: 100%;display: flex;justify-content: space-evenly;position: relative;}
+#Logo-footer{display: block;justify-content: space-around;margin: 20px 0 0 0;}
+#logoFooter{margin: 20px 0;}
+#Logo-footer article{max-width: 300px;}
+#listas-footer li{line-height: 2.2rem;}
+.titulo_footer {padding: 15px;}
+footer > section {width: 100%;height: auto;background-color: var(--copyright-color);position: relative;bottom: 0;padding: 25px;text-align: center;}
+
+.ItemVantengens{max-width: 560px;border-radius: 15px;background-color: #fff;padding: 40px; } 
+.ItemVantengens span{display: flex;align-items: center;column-gap: 30px;margin-bottom: 20px;} 
+.ItemVantengens .button{margin: 25px auto;display: inline-block;} 
+
+
+.carousel {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-list {
+    width: 300%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 0;
+    transition: left 0.5s ease;
+    display: flex;
+    gap: 55px;
+  }
+  
+  .carousel-item {
+    width: 33.3333%;
+    height: 400px;
+    float: left;
+    list-style: none;
+  }
+
+
+  .carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  
+  .carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel-control.prev {
+    left: 10px;
+  }
+  
+  .carousel-control.next {
+    right: 10px;
+  }
+  
+  
+
+
+
+
+/* Responsividade para celular */
+#Menu-mobile,#btn-mobile {display: none;}
+header > nav > input {display: none;}
+
+/* Tela até 920px */
+@media (max-width: 920px) {
+    #listas-footer{display: block;}
+    #Logo-footer{display: flex;flex-wrap: wrap;}
+}
+
+@media (max-width: 800px) {
+    main section {padding: 0 25px;}
+    #btn-mobile{display: block;margin: 0 30px 0 0;cursor: pointer;}
+    #Menu-header {display: none;}
+    #Menu-header li{display: block;}
+    #nav.active #Menu-header { display: block; position: absolute; z-index: 1; top: 70px; left: 0; width: 100%; background-color: var(--menuMobile-color) ; padding: 25px; line-height: 10vh;}
+}

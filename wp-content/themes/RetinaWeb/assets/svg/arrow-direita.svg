@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="269"
+    height="269" viewBox="0 0 269 269">
+    <defs>
+        <filter id="Elipse_152" x="0" y="0" width="50" height="50
+        " filterUnits="userSpaceOnUse">
+            <feOffset dy="3" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="35" result="blur" />
+            <feFlood flood-opacity="0.161" />
+            <feComposite operator="in" in2="blur" />
+            <feComposite in="SourceGraphic" />
+        </filter>
+    </defs>
+    <g id="Grupo_1311" data-name="Grupo 1311" transform="translate(-271 -4392)">
+        <g transform="matrix(1, 0, 0, 1, 271, 4392)" filter="url(#Elipse_152)">
+            <circle id="Elipse_152-2" data-name="Elipse 152" cx="29.5" cy="29.5" r="29.5"
+                transform="translate(105 102)" fill="#1d156d" />
+        </g>
+        <g id="chevron-right" transform="translate(396.609 4513.104)">
+            <path id="chevron-right-2" data-name="chevron-right"
+                d="M23.2,7.032l-2.1-2.1L10.586,15.445,21.1,25.962l2.1-2.1-8.413-8.413Z"
+                transform="translate(-10.586 -4.929)" fill="#fff" />
+        </g>
+    </g>
+</svg>
+  
